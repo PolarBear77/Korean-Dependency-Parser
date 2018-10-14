@@ -4,9 +4,9 @@ This is a end-to-end Constituency Parser for Korean. Given a Korean sentence, it
 
 ### Dependencies
 #### Available through pip:
-numpy \n
-cython \n
-nltk \n
+numpy <br></br>
+cython <br></br>
+nltk <br></br>
 #### Others:
 Foma https://code.google.com/archive/p/foma/
 
