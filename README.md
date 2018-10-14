@@ -4,6 +4,7 @@ This is a end-to-end Constituency Parser for Korean. Given a Korean sentence, it
 
 ### Dependencies
 #### Available through pip:
+Keras
 numpy <br></br>
 cython <br></br>
 nltk <br></br>
