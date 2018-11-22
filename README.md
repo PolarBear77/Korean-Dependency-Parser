@@ -1,8 +1,11 @@
 # Korean-Constituency-Parser
 
-This is a end-to-end Constituency Parser for Korean. Given a Korean sentence, it gives you N most possible parses for the sentence. The parser will be given in the form of  a Cython-compiled .so file, so it is fast on both CLI environments Python environments. In such eviroments, the files can be imported directly, identical to a Python module. 
+This is a end-to-end Constituency Parser for Korean. Given a Korean sentence, the parser gives you N most likely parses for the sentence. The parser is in the form of  a Cython-compiled .so(dynamic linked library) files, so it is both runnable in CLI environments and Python environments. In a Python evironment, the files can be imported using the import keyword like many other Python modules. 
 
-### Dependencies
+TODO:
+Sample usages
+
+### Software Dependencies
 #### Available through pip:
 Keras
 numpy <br></br>
@@ -13,4 +16,3 @@ Foma https://code.google.com/archive/p/foma/
 
 ### Resources
 Sejong corpus https://ithub.korean.go.kr/user/guide/total/guide1.do
-Foma https://code.google.com/archive/p/foma/
