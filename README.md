@@ -13,4 +13,4 @@ Foma https://code.google.com/archive/p/foma/
 
 ### Resources
 Sejong corpus https://ithub.korean.go.kr/user/guide/total/guide1.do
-Foma 
+Foma https://code.google.com/archive/p/foma/
