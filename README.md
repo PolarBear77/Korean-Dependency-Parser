@@ -10,26 +10,28 @@ The below is an example output from the sentence "우리는 누가 보아도 어
 
 Each row in the output is a unit of Korean morpheme (Root + Josa), with the first pair being the tags with the highest probabilities. The preceding pairs in brackets are the next N-best tags.
 
-TODO:
-Sample usages
+
 
 ### Python environment
 import RunModel
 RunModel.main()
-- input_file_path
-- output_file_path
-- topN
+- input_file_path: path to input file, each sentence must be delimited with a line break (\n)
+- output_file_path: path to save output parse
+- topN: top N number of parses to output
+![alt text](https://github.com/PolarBear77/Korean-Dependency-Parser/blob/master/sample_run.jpg)
 
-APIs
 
 ### Software Dependencies
-#### Available through pip:
+Python Version >= 3.5
+Foma https://code.google.com/archive/p/foma/
+
+#### Python packages:
+Tensorflow >= 1.8.0
+Numpy >= 1.14.0
 Keras
 numpy <br></br>
 cython <br></br>
 nltk <br></br>
-#### Others:
-Foma https://code.google.com/archive/p/foma/
 
 ### Resources
 Sejong corpus https://ithub.korean.go.kr/user/guide/total/guide1.do
