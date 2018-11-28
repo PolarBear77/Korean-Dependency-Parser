@@ -5,7 +5,7 @@
 This is a end-to-end dependency parser for Korean. Given a Korean sentence, the parser gives you N most likely parses for the sentence. Currently, only the morpheme analyzer & POS tagger are supported. The project is in the form of a Cython-compiled .so(dynamic linked library) files, so it is both runnable in CLI environments and Python environments. In a Python evironment, the files can be imported using the import keyword like many other Python modules. 
 
 Sample Output: <br></br>
-The below is an example output from the sentence "우리는 누가 보아도 어엿한 대학생이다. 전통에 빛나고 밝은 앞날의 전망을 가진 연세의 대학인이다." with N = 3.
+The below is an example output from the sentence "우리는 누가 보아도 어엿한 대학생이다. 전통에 빛나고 밝은 앞날의 전망을 가진 연세의 대학인이다." with N = 3.<br></br>
 ![alt text](https://github.com/PolarBear77/Korean-Constituency-Parser/blob/master/sample_output.jpg)
 
 Each row in the output is a unit of Korean morpheme (Root + Josa), with the first pair being the tags with the highest probabilities. The preceding pairs in brackets are the next N-best tags.
@@ -17,7 +17,7 @@ import RunModel
 RunModel.main()
 - input_file_path: path to input file, each sentence must be delimited with a line break (\n)
 - output_file_path: path to save output parse
-- topN: top N number of parses to output
+- topN: top N number of parses to output<br></br>
 ![alt text](https://github.com/PolarBear77/Korean-Dependency-Parser/blob/master/sample_run.jpg)
 
 
