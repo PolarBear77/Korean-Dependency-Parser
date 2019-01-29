@@ -29,9 +29,9 @@ Foma https://code.google.com/archive/p/foma/
 - Tensorflow >= 1.8.0
 - Numpy >= 1.14.0
 - Keras
-- numpy <br></br>
-- cython <br></br>
-- nltk <br></br>
+- numpy
+- cython 
+- nltk
 
 ### Resources
 Sejong corpus https://ithub.korean.go.kr/user/guide/total/guide1.do
