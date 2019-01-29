@@ -26,12 +26,12 @@ Python Version >= 3.5
 Foma https://code.google.com/archive/p/foma/
 
 #### Python packages:
-Tensorflow >= 1.8.0
-Numpy >= 1.14.0
-Keras
-numpy <br></br>
-cython <br></br>
-nltk <br></br>
+- Tensorflow >= 1.8.0
+- Numpy >= 1.14.0
+- Keras
+- numpy <br></br>
+- cython <br></br>
+- nltk <br></br>
 
 ### Resources
 Sejong corpus https://ithub.korean.go.kr/user/guide/total/guide1.do
